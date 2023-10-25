@@ -1,0 +1,44 @@
+-- drop database escola;
+
+create database escola;
+
+use escola;
+
+drop table aluno;
+
+create table aluno(
+matricula int primary key,
+nome varchar(45),
+turma varchar(45),
+telefone varchar(45)
+);
+
+show tables;
+
+drop table aluno;
+
+create table aluno(
+matricula int primary key,
+nome varchar(45),
+turma varchar(45),
+telefone varchar(45)
+);
+ show tables;
+ desc aluno;
+ 
+insert into aluno values(
+'123',
+'yasmin',
+'2AII',
+'8922 4002'
+);
+select * from aluno;
+
+insert into aluno values(
+'321',
+'Gabriel',
+'2AII',
+'365213512'
+);
+
+
